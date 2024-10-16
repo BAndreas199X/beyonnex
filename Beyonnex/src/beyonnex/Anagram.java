@@ -261,7 +261,7 @@ public class Anagram {
 	 * 	have already been positioned 
 	 * @param restList - List if letters the still need to be positioned
 	 */
-	public static void findAnagrams(StringBuilder currString, List<String> restList) {
+	private static void findAnagrams(StringBuilder currString, List<String> restList) {
 		
 		if(restList.size() == 1) {
 			
