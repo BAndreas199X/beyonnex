@@ -145,8 +145,6 @@ public class Main {
 	 */
 	public static void printAnagrams(String fString) {
 		
-		fString = StringMethods.stripDownString(fString);
-		
 		AnagramPermutation anagramPerm = new AnagramPermutation();
 		
 		Set<String> anagramSet = anagramPerm.findAnagrams(fString);
